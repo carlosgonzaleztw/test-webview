@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <SafeAreaView style={styles.container}>
       <WebView source={{ uri: 'https://registro-estancia-stg.vitamina.cl/' }} />
-      <StatusBar style={'auto'} />
+      <StatusBar style={'dark'} />
     </SafeAreaView>
   );
 }
