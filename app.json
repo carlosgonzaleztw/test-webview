@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "test-panqueque-webview",
+    "name": "Registro de Estancia Test",
     "slug": "test-panqueque-webview",
     "version": "1.0.0",
     "orientation": "landscape",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons8-experiencias.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/PqqRangers_General.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,13 +16,17 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
